@@ -278,6 +278,8 @@ SECCIÓN 14–8 Transformadores con tomas y devanados múltiples
 
 ## 4. VIDEO
 
+https://youtu.be/se5UvDV_GAk
+
 ## 5.CONCLUSIONES
 •	Para la resolucion de los ejercicios aplicando los temas de los que hablan las corrientes alternas pro ejemplo el periodo tenemos que tener en cuenta que se debe analizar bien el diagrama y dependiendo la frecuencia con la que esta se maneje estableceremos muchas caracteristicas de este sistema sinusoidal y tambien se puede interpretar diagramas no sinusoidales.
 
