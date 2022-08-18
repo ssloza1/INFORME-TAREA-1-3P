@@ -122,24 +122,43 @@ SECCIÓN 13–5 Inductores en circuitos de ca
 32. En la figura 13-51, determine la corriente rms total. ¿Cuáles son las corrientes a través de L2 y L3?
 Obteniendo la inductancia total:
 LT=1/(1/40+1/20)+50=63.33 µH
+
 Datos:
+
 2.5 kHz = 2.5∙〖10〗^3 Hz
+
 63.33 µH= 63.33∙〖10〗^(-6) H
+
 Por lo tanto XL=
+
 X_L=2πfL=2π(2.5∙〖10〗^3 )(63.33∙〖10〗^(-6) )=0.9947 Ω
+
 Entonces la corriente rms total es:
+
 I_rms=Vrms/XL=10/0.9947=10.05 A
+
 Calculando la corriente en L2 
+
 Datos:
+
 2.5 kHz = 2.5∙〖10〗^3 Hz
+
 20 µH= 20∙〖10〗^(-6) H
+
 X_L=2πfL=2π(2.5∙〖10〗^3 )(20∙〖10〗^(-6) )=0.3141 Ω
+
 I_rms=Vrms/XL=2.1/0.3141=6.68 A
+
 Calculando la corriente en L3
+
 Datos:
+
 2.5 kHz = 2.5∙〖10〗^3 Hz
+
 40 µH= 40∙〖10〗^(-6) H
+
 X_L=2πfL=2π(2.5∙〖10〗^3 )(40∙〖10〗^(-6) )=0.6283 Ω
+
 I_rms=Vrms/XL=2.1/0.6283=3.34 A
 
 34. En la figura 13-51, determine la potencia reactiva.
@@ -147,21 +166,35 @@ I_rms=Vrms/XL=2.1/0.6283=3.34 A
  ![image](https://user-images.githubusercontent.com/105320981/185438284-a1dedc26-0a3a-4954-a989-024bee58fd68.png)
 
 Hallar la reactancia inductiva y los valores de corriente
+
 L_2eq=((L_2*L_3)/(L_2+L_3 ))=13.33 µH
+
 L_T=L_1+L_2eq=50+13.33=63.33 µH
+
 X_L=2πF_L=2π(2.5*〖10〗^3 Hz)(0.01mH)=50π=157.08 Ω
+
 I=V_S/X_L =(10 V)/(157.08 Ω)=63.6 mA
+
 Aplicar 
+
 X_L=〖I^2X〗_L=(63.6 mA)^2(157.08 Ω)=0.6353 VAR
+
 Ejercicios capítulo 14
+
 Determine el coeficiente de acoplamiento cuando LM = 1 µH, L1 = 8 µH, y L2 = 2 µH.
- L_M=k*√(L_1*L_2 )
+
+L_M=k*√(L_1*L_2 )
+
 L_M/√(L_1*L_2 )=k
+
 (1µH)/√(8µH*2µH)=k
+
 k=(1µH)/(4µH)=0.25
 
 Capitulo 14
+
 SECCIÓN 14–1 Inductancia mutua
+
 2. Determine el coeficiente de acoplamiento cuando LM  1 mH, L1  8 mH, y L2 2 mH
  
  ![image](https://user-images.githubusercontent.com/105320981/185438337-e571c64f-a5eb-4aef-99a7-81f28ef152f5.png)
@@ -207,6 +240,7 @@ SECCIÓN 14–5 Carga reflejada
 ![image](https://user-images.githubusercontent.com/105320981/185438755-97c99031-b5f1-4f95-bd9c-13cc8f80e4e9.png)
 
 SECCIÓN 14–6 Igualación de impedancia 
+
 18. En el circuito de la figura 14-49, encuentre la relación de vueltas requerida para suministrar potencia máxima al altavoz de 4 Ω
  ![image](https://user-images.githubusercontent.com/105320981/185438768-ddcf096d-e6b2-49c6-9b64-1fbeebedea26.png)
 
